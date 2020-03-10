@@ -1,0 +1,98 @@
+<html lang="he">
+<head>
+	<title>בשביל אביב</title>
+	<style>
+		body {
+			font-size: 18px;
+		}
+		.content-wrapper {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+		@media screen and (min-width: 768px) {
+			.content-wrapper {
+				display: grid;
+				grid-template-columns: 1fr 300px;
+			}
+		}
+
+		blockquote {
+		   color: #6a95cc;
+		   font-family: Tahoma, sans-serif;
+		   font-size: 2rem;
+		   quotes: "”" "“";
+		}
+		blockquote h1 {
+		   font-size: 4rem;
+		}
+		blockquote p {
+		   margin-bottom: .5rem;
+		}
+
+		blockquote p:before,
+		blockquote p:after {
+		   content: open-quote;
+		   font-family: Georgia, serif;
+		   font-size: 4rem;
+		   margin: -1rem -1.5rem 0 0;
+		   position: absolute;
+		   opacity: 0.5;
+		}
+
+		blockquote p:after {
+		   content: close-quote;
+		   margin: 1rem 0 0 0;
+		}
+
+		blockquote cite {
+		   font-size: 1.5rem;
+		}
+
+		blockquote cite::before {
+		    content: "- ";
+		}
+
+		.main-text {
+			text-align: center;
+			line-height: 2em;
+	 	 }
+
+	 	 h1 {
+	 	 	text-align: center;
+	 	 }
+
+		.sidebar {
+    		border-right: 1px solid #ccc;
+    		padding-right: 1em;
+		}
+	</style>
+</head>
+
+<body dir="rtl">
+	<h1>בשביל אביב</h1>
+	<div class="content-wrapper">
+		<div class="main-content">
+			<div class="main-text">
+			שביל זה סומן לזכרו של<br>
+			<b>אביב חיים</b><br>
+			 בן כפר ורדים, חניך חוגי הסיירות,<br>
+			למד בבית ספר "תפן", שירת ביחידת המחשבים בסיירת מטכ"ל<br>
+			סטודנט להנדסת חשמל בטכניון<br>
+			טייל מושבע ואוהב טבע<br>
+			נלקח מאיתנו באביב חייו<br>
+			1989-2017<br>
+			</div>
+			<blockquote>
+			   <p>אם נדבקת בחיידק הטיולים, אל תוותר עליו</p>
+			   <cite>אביב, 2013</cite>
+			</blockquote>
+		</div>
+		<div class="sidebar">
+			<div class="map_embed">
+				<iframe src="https://israelhiking.osm.org.il/share/INUCIpVM2P" scrolling="no" width="300" height="300" frameborder="0"></iframe>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
