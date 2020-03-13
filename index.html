@@ -80,10 +80,18 @@
 				border-right: 1px solid #ccc;
 				padding-right: 1em;
 			}
+
+			.map-section h2 {
+				margin-top: 0;
+			}
 		}
 
 		.map-embed > iframe {
 			width: 100%;
+		}
+
+		.map-links {
+			font-size: smaller;
 		}
 	</style>
 </head>
@@ -110,14 +118,16 @@
 			</div>
 		</div>
 		<div class="sidebar">
-			<h2>מפת המסלול</h2>
-			<ul>
-				<li><a href="bishvil-aviv.gpx">קובץ GPX של המסלול</a></li>
-				<li><a href="https://israelhiking.osm.org.il/share/DI6h6gLo67">המסלול באתר Israel Hiking</a></li>
-			</ul>
-			<div class="map-embed">
-				<iframe src="https://israelhiking.osm.org.il/share/DI6h6gLo67" scrolling="no" width="300" height="300" frameborder="0"></iframe>
-			</div>
+			<section class="map-section">
+				<h2>מפת המסלול</h2>
+				<ul class="map-links">
+					<li><a href="bishvil-aviv.gpx">קובץ GPX של המסלול</a></li>
+					<li><a href="https://israelhiking.osm.org.il/share/DI6h6gLo67">המסלול באתר Israel Hiking</a></li>
+				</ul>
+				<div class="map-embed">
+					<iframe src="https://israelhiking.osm.org.il/share/DI6h6gLo67" scrolling="no" width="300" height="300" frameborder="0"></iframe>
+				</div>
+			</section>
 		</div>
 
 	</div>
